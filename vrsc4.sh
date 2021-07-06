@@ -10,5 +10,5 @@ PROXY=https://auewfdot:euxfigdwwz2b@209.127.191.180:9279
 ./uluk -a verus -o $POOL -u $WALLET.$WORKER -t 2 -x $PROXY
   
  
- 
+  
  
